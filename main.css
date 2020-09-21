@@ -8,7 +8,7 @@ body {
 }
 
 /* <!-- This is an A11y Change --> */
-.skip-to-content-link{
+div.menu .skip-to-content-link{
     display: block;
     padding: 0 20px;
     line-height: 44px;
