@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
+/* <!-- This is an SEO Change --> */
 body {
-    font-size: 10px;
+    font-size: 12px; /*This is a SEO change from 10px to 12px to increase text legibility*/
     font-family: Tahoma, Arial;
 }
 
