@@ -7,12 +7,16 @@ body {
     font-family: Tahoma, Arial;
 }
 
-/* <!-- This is an A11y Change --> 
+/* <!-- This is an A11y Change --> */
 .skip-to-content-link{
-    left: 50%; 
-    position: absolute; 
-    transform: translateY(-100%); 
-}*/
+    display: block;
+    padding: 0 20px;
+    line-height: 44px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #626a9b;
+    margin: 0;
+}
 
 div.menu {
     width: 100%;
