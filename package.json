@@ -5,9 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js", 
+    "start": "node server.js",
     "audrey": "echo audrey"
-    
   },
   "repository": {
     "type": "git",
@@ -22,5 +21,6 @@
   "homepage": "https://github.com/ajacobs99/personal-budget#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
