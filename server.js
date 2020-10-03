@@ -5,21 +5,22 @@ const app = express();
 const port = 3000; 
 
 app.use(cors()); 
-// const budget = {
-//     myBudget: [
-//     {
-//         title: 'Eat out',
-//         budget: 30
-//     },
-//     {
-//         title: 'Rent', 
-//         budget: 350
-//     },
-//     {
-//         title: 'Groceries', 
-//         budget: 90
-//     },
-// ]}; 
+
+const budget = {
+    myBudget: [
+    {
+        title: 'Eat out',
+        budget: 30
+    },
+    {
+        title: 'Rent', 
+        budget: 350
+    },
+    {
+        title: 'Groceries', 
+        budget: 90
+    },
+]}; 
 
 
 app.get('/budget', (req,res) => {
