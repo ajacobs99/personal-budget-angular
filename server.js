@@ -24,7 +24,7 @@ const budget = {
 ]}; 
 
 
-app.get('http://localhost:3000/budget', (req,res) => {
+app.get('/budget', (req,res) => {
     //res.json(budget.json); 
     res.sendFile('budget.json', {root: __dirname}); 
 }); 
