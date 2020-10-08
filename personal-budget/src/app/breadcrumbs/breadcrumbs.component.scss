@@ -1,21 +1,30 @@
-.breadcrumb{
+.breadcrumbs{
     padding: 10px;
-    font-family: Tahoma;
+    font-family: tahoma;
 }
 .bcItem{
-  display: inline-block;
+    display: inline-block;
+
 }
-.bcItem:not(last-of-type)::after{
-  content: '/';
-  color: grey;
+.bcItem:not(:last-of-type)::after{
+    content: '/';
+    margin: 0 5px;
+    color: lightgrey;
+
 }
 .bcLink{
-  text-decoration: none;
-  color: darkgrey;
+    text-decoration: none;
+    color: darkgrey;
+
 }
 .bcLink:hover{
   text-decoration: underline;
+  color: #4d5791;
+
 }
 .bcLink-active{
-  color: #4d5791;
+  color:#b4c6f0;
+}
+ul{
+  float:left;
 }
