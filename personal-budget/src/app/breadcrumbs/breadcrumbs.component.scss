@@ -1,0 +1,21 @@
+.breadcrumb{
+    padding: 10px;
+    font-family: Tahoma;
+}
+.bcItem{
+  display: inline-block;
+}
+.bcItem:not(last-of-type)::after{
+  content: '/';
+  color: grey;
+}
+.bcLink{
+  text-decoration: none;
+  color: darkgrey;
+}
+.bcLink:hover{
+  text-decoration: underline;
+}
+.bcLink-active{
+  color: #4d5791;
+}
